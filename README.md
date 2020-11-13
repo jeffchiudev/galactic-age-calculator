@@ -63,7 +63,10 @@ _3. In the directory where you've cloned the repository, open in Visual Studio C
 | Should correctly calculate if user is older than life expectancy on Venus | userAge.90; canadaExpectancy = 82.25 | yearsOver = 13 |
 | userAge.prototype.marsLifeLeft |||
 | Should correctly log users Mars life expectancy | userAge.38; canadaExpectancy = 82.25 | marsLifeLeft = 24 |
-
+| Should correctly calculate if user is older than life expectancy on Mars | userAge.90; canadaExpectancy = 82.25 | yearsOver = 4 |
+| userAge.prototype.JupiterLifeLeft |||
+| Should correctly log users Jupiter life expectancy | userAge.38; canadaExpectancy = 82.25 | jupiterLifeLeft = 4 |
+| Should correctly calculate if user is older than life expectancy on Jupiter | userAge.90; canadaExpectancy = 82.25 | yearsOver = 1 |
 
 ## Known Bugs:
 
