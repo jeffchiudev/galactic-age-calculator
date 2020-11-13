@@ -3,4 +3,8 @@ export default class UserAge {
     this.name = name;
     this.earthAge = earthAge;
   }
+
+  mercuryAge(earthAge) {
+    mercuryAge = earthAge / .24;
+  }
 }
