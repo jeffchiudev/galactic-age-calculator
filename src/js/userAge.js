@@ -28,4 +28,11 @@ export default class UserAge {
       return `you are ${overAverage} years over the average life expectancy on Earth.  Keep taking care of yourself!!`;
     }
   }
+
+  mercuryLifeLeft(avgLifeExpectancy) {
+    let mercuryExpectancy = Math.round(avgLifeExpectancy / .24);
+    if (mercuryExpectancy > this.mercuryAge()) {
+      return mercuryExpectancy - this.mercuryAge();
+    }
+  }
 }

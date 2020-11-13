@@ -47,7 +47,7 @@ _3. In the directory where you've cloned the repository, open in Visual Studio C
 | UserAge.prototype.mercuryAge |||
 | Should correctly calculate user age into Mercury years (age/.24) | userAge = 38 | user1.mercuryAge = 158 |
 | UserAge.prototype.venusAge |||
-| Should correctly calculate user age into Venus years (age/.62) | userAge = 38 | user1.mercuryAge = 158 |
+| Should correctly calculate user age into Venus years (age/.62) | userAge = 38 | user1.mercuryAge = 61 |
 | UserAge.prototype.marsAge |||
 | Should correctly calculate user age into Mars years (age/1.88) | userAge = 38 | user1.mercuryAge = 20 |
 | UserAge.prototype.jupiterAge |||
@@ -55,6 +55,8 @@ _3. In the directory where you've cloned the repository, open in Visual Studio C
 | UserAge.prototype.lifeLeft |||
 | Should correctly log the users life expectancy according to user entering the avg life expectancy for their region on earth | userAge = 38; canadaExpectancy = 82.25 | userLifeExpectancy = 44.25 |
 | Should correctly calculate years OVER average exectancy if the user age is > than the average life exectancy of their region (on earth) | userAge = 90; canadaExpectancy = 82.25 | yearsOver = 7.75 |
+| UserAge.prototype.mercuryLifeLeft |||
+| Should correctly log users Mercury life expectancy | userAge.38 | mercuryLifeLeft = 185 |
 
 ## Known Bugs:
 
