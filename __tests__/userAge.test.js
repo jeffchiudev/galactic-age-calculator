@@ -69,6 +69,6 @@ describe('UserAge', () => {
 
   test('Should correctly calculate if user is older than life expectancy on Jupiter', () => {
     let user1 = new UserAge("Jeff", 90)
-    expect(user1.jupiterLifeLeft(82.25)).toEqual(38);
+    expect(user1.jupiterLifeLeft(82.25)).toEqual("You are 1 over the average Jovian life expectancy; Great work!");
   });
 })
