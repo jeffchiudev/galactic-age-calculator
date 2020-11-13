@@ -46,6 +46,10 @@ _3. In the directory where you've cloned the repository, open in Visual Studio C
 | Should correctly intake a user and a users age | user1 = new UserAge(Jeff, 38) | user1 = {Jeff, 38} | 
 | UserAge.prototype.mercuryAge |||
 | Should correctly calculate user age into mercury age (age/.24) | userAge = 38 | user1.mercuryAge = 158 |
+| UserAge.prototype.venusAge |||
+| Should correctly calculate user age into mercury age (age/.62) | userAge = 38 | user1.mercuryAge = 158 |
+| UserAge.prototype.marsAge |||
+| UserAge.prototype.jupiterAge |||
 
 
 ## Known Bugs:

@@ -14,6 +14,6 @@ describe('UserAge', () => {
 
   test('Should correctly calculate user age into mercury age (age/.24)', () => {
     //const user1 = new UserAge("Jeff", 38);
-    expect(user1.mercuryAge()).toEqual(158.33333333333334);
+    expect(user1.mercuryAge()).toEqual(158);
   });
 })
