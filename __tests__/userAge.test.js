@@ -47,5 +47,11 @@ describe('UserAge', () => {
 
   test('Should correctly log users Venus life expectancy', () => {
     expect(user1.venusLifeLeft(82.25)).toEqual(72)
-  })
+  });
+
+  test('Should correctly calculate if user is older than life expectancy on Venus', () => {
+    let user1 = new UserAge("Jeff", 90)
+    expect(user1.venusLifeLeft(82.25)).toEqual('You are 12 over the average Venusian life expectancy; Great work!');
+  });
+
 })

@@ -43,7 +43,7 @@ export default class UserAge {
     if (venusExpectancy > this.venusAge()) {
       return venusExpectancy - this.venusAge();
     } else if (venusExpectancy < this.venusAge()) {
-      return `You are ${this.venusAge() - venusExpectancy} over the average Mercurian life expectancy; Great work!`
+      return `You are ${this.venusAge() - venusExpectancy} over the average Venusian life expectancy; Great work!`
     }
   }
 };
