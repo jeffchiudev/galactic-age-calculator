@@ -65,7 +65,7 @@ _* Webpack_
 
 _* ES6_
 
-_* JQuery/Javascript_
+_* Jest_
 
 ### License:
 
