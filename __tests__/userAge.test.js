@@ -18,4 +18,8 @@ describe('UserAge', () => {
   test('Should correctly calculate user age into Mars years (age/1.88)', () => {
     expect(user1.marsAge()).toEqual(20);
   })
+
+  test('Should correctly calculate user age into Jupiter years (age/11.86)', () => {
+    expect(user1.jupiterAge()).toEqual(38);
+  })
 })
