@@ -55,6 +55,6 @@ describe('UserAge', () => {
   });
 
   test('Should correctly log users Mars life expectancy', () => {
-    expect(user1.marsLifeLeft(82.25)).toEqual(38)
+    expect(user1.marsLifeLeft(82.25)).toEqual(24)
   });
 })
