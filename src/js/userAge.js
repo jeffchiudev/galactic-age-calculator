@@ -15,4 +15,10 @@ export default class UserAge {
   jupiterAge() {
     return Math.round(this.earthAge/ 11.86);
   }
+
+  lifeLeft(avgLifeExpectancy) {
+    if (avgLifeExpectancy > this.earthAge) {
+      return avgLifeExpectancy - this.earthAge;  
+    }
+  }
 }

@@ -52,6 +52,8 @@ _3. In the directory where you've cloned the repository, open in Visual Studio C
 | Should correctly calculate user age into Mars years (age/1.88) | userAge = 38 | user1.mercuryAge = 20 |
 | UserAge.prototype.jupiterAge |||
 | Should correctly calculate user age into Jupiter years (age/11.86) | userAge = 38 | user1.mercuryAge = 3 |
+| UserAge.prototype.lifeLeft |||
+| Should correctly log the users life expectancy according to user entering the avg life expectancy for their region on earth | userAge = 38; canadaExpectancy = 82.25 | userLifeExpectancy = 44.25 |
 
 ## Known Bugs:
 

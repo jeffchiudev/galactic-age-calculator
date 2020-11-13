@@ -17,9 +17,13 @@ describe('UserAge', () => {
 
   test('Should correctly calculate user age into Mars years (age/1.88)', () => {
     expect(user1.marsAge()).toEqual(20);
-  })
+  });
 
   test('Should correctly calculate user age into Jupiter years (age/11.86)', () => {
     expect(user1.jupiterAge()).toEqual(3);
+  });
+
+  test('Should correctly log the users life expectancy according to user entering the avg life expectancy for their region', () => {
+    expect(user1.lifeLeft(82.25)).toEqual(38);
   })
 })
