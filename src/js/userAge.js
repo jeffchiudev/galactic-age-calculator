@@ -37,4 +37,6 @@ export default class UserAge {
       return `You are ${this.mercuryAge() - mercuryExpectancy} over the average Mercurian life expectancy; Great work!`
     }
   }
-}
+
+  
+};

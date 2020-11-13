@@ -56,8 +56,12 @@ _3. In the directory where you've cloned the repository, open in Visual Studio C
 | Should correctly log the users life expectancy according to user entering the avg life expectancy for their region on earth | userAge = 38; canadaExpectancy = 82.25 | userLifeExpectancy = 44.25 |
 | Should correctly calculate years OVER average exectancy if the user age is > than the average life exectancy of their region (on earth) | userAge = 90; canadaExpectancy = 82.25 | yearsOver = 7.75 |
 | UserAge.prototype.mercuryLifeLeft |||
-| Should correctly log users Mercury life expectancy | userAge.38 | mercuryLifeLeft = 185 |
+| Should correctly log users Mercury life expectancy | userAge.38; canadaExpectancy = 82.25 | mercuryLifeLeft = 185 |
 | Should correctly calculate if user is older than life expectancy on Mercury | userAge.90; canadaExpectancy = 82.25 | yearsOver = 32 |
+| UserAge.prototype.venusLifeLeft |||
+| Should correctly log users Venus life expectancy | userAge.38; canadaExpectancy = 82.25 | VenusLifeLeft = 72 |
+| Should correctly calculate if user is older than life expectancy on Mercury | userAge.90; canadaExpectancy = 82.25 | yearsOver = 13 |
+
 
 ## Known Bugs:
 
