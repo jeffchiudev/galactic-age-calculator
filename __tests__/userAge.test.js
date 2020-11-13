@@ -24,6 +24,6 @@ describe('UserAge', () => {
   });
 
   test('Should correctly log the users life expectancy according to user entering the avg life expectancy for their region', () => {
-    expect(user1.lifeLeft(82.25)).toEqual(38);
+    expect(user1.lifeLeft(82.25)).toEqual(44.25);
   })
 })
