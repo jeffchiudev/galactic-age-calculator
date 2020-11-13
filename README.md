@@ -1,16 +1,16 @@
-# _{Application Name}_
+# _Your Galactic Age!!_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Ever wondered how old you were according to another planets solar cycle?, v1.0 13.nov.2020_
 
-#### By _**{List of contributors}**_
+#### By _**Jeff Chiu**_
 
 ## Description:
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_Birthdays and our ages are calculated according to the solar calendar; Every 365 days you (and planet Earth) make another lap around the solar system and you get one year older.  However, how would that change if you were on Mars? On Jupiter? This calculator will determine your age according to the solar cycles of Mercury, Venus, Mars and Jupiter.  For the morbidly inclined, we've gone full 'momento mori' and determined how much time you've got left on each planet_
 
 ## Site link
 
-_`[Click here](https://jeffchiudev.github.io/example-repo/)` to visit the site._
+_`[Click here](https://jeffchiudev.github.io/galactic-age-calculator/)` to visit the site._
 
 
 ## Setup/Installation Requirements:
@@ -22,19 +22,29 @@ _1. Internet browser of choice. Chrome & Firefox are suggested_
 _2. A code editor like VSCode or Atom to view or edit the codebase._
 
 #### Open by downloading:
-_1. Download `[this](https://github.com/jeffchiudev/example-repo)` repository onto your computer by clicking the 'clone or download button'._
-_2. Double click index.html to open it in your web browser._
+
+_1. Download `[this](https://github.com/jeffchiudev/galactic-age-calculator)` repository onto your computer by clicking the 'clone or download button'._
+
+_2. This page utilizes Node package manager and requires local files to be installed. Once you've cloned the repository and it's accompanying config files, use the following command `npm install` to install the necessary NPM files to display correctly._
+
+_3. Double click index.html to open it in your web browser._
 
 ### Open via Bash/GitBash:
 
 _1. Open terminal window and navigate to/create desired repository location._
 
 _2. Clone this repository onto your computer by using command:_
-`git clone https://github.com/jeffchiudev/example-repo`
+`git clone https://github.com/jeffchiudev/galactic-age-calculator`
 
 _3. In the directory where you've cloned the repository, open in Visual Studio Code with `code .` or preferred text editor._
 
 ## Testing Specifications:
+
+| Description | Input | Ouput |
+| :---------- | :---- | :---- |
+| UserAge ||||
+| Should correctly intake a user and a users age | user1 = new UserAge(Jeff, 38) | user1 = {Jeff, 38} | 
+
 
 ## Known Bugs:
 
@@ -47,7 +57,13 @@ _If there are any issues, I can be contacted at jeffchiudev@gmail.com_
 
 ## Technologies Used:
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_* NPM_
+
+_* Webpack_
+
+_* ES6_
+
+_* JQuery/Javascript_
 
 ### License:
 
