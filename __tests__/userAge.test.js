@@ -66,4 +66,9 @@ describe('UserAge', () => {
   test('Should correctly log users Jupiter life expectancy', () => {
     expect(user1.jupiterLifeLeft(82.25)).toEqual(4)
   });
+
+  test('Should correctly calculate if user is older than life expectancy on Jupiter', () => {
+    let user1 = new UserAge("Jeff", 90)
+    expect(user1.jupiterLifeLeft(82.25)).toEqual(38);
+  });
 })
