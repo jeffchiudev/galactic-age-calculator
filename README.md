@@ -45,12 +45,13 @@ _3. In the directory where you've cloned the repository, open in Visual Studio C
 | UserAge ||||
 | Should correctly intake a user and a users age | user1 = new UserAge(Jeff, 38) | user1 = {Jeff, 38} | 
 | UserAge.prototype.mercuryAge |||
-| Should correctly calculate user age into mercury age (age/.24) | userAge = 38 | user1.mercuryAge = 158 |
+| Should correctly calculate user age into Mercury years (age/.24) | userAge = 38 | user1.mercuryAge = 158 |
 | UserAge.prototype.venusAge |||
-| Should correctly calculate user age into mercury age (age/.62) | userAge = 38 | user1.mercuryAge = 158 |
+| Should correctly calculate user age into Venus years (age/.62) | userAge = 38 | user1.mercuryAge = 158 |
 | UserAge.prototype.marsAge |||
+| Should correctly calculate user age into Mars years (age/1.88) | userAge = 38 | user1.mercuryAge = 20 |
 | UserAge.prototype.jupiterAge |||
-
+| Should correctly calculate user age into Jupiter years (age/11.86) | userAge = 38 | user1.mercuryAge = 3 |
 
 ## Known Bugs:
 
