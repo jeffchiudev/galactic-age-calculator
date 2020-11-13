@@ -33,6 +33,8 @@ export default class UserAge {
     let mercuryExpectancy = Math.round(avgLifeExpectancy / .24);
     if (mercuryExpectancy > this.mercuryAge()) {
       return mercuryExpectancy - this.mercuryAge();
+    } else if (mercuryExpectancy < this.mercuryAge()) {
+      return `You are ${this.mercuryAge() - mercuryExpectancy} over the average Mercurian life expectancy; Great work!`
     }
   }
 }

@@ -32,11 +32,16 @@ describe('UserAge', () => {
   });
 
   test('Should correctly calculate years OVER average exectancy if the user age is > than the average life exectancy of their region (on earth)', () => {
-    let user1 = new UserAge("Jeff", "90")
+    let user1 = new UserAge("Jeff", 90)
     expect(user1.lifeLeft(82.25)).toEqual("you are 7.75 years over the average life expectancy on Earth.  Keep taking care of yourself!!");
   });
 
   test('Should correctly log users Mercury life expectancy', () => {
     expect(user1.mercuryLifeLeft(82.25)).toEqual(185);
-  })
+  });
+
+  test('Should correctly calculate if user is older than life expectancy on Mercury', () => {
+    let user1 = new UserAge("Jeff", 90)
+    expect(user1.mercuryLifeLeft(82.25)).toEqual(38);
+  });
 })
