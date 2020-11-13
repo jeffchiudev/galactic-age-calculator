@@ -44,4 +44,8 @@ describe('UserAge', () => {
     let user1 = new UserAge("Jeff", 90)
     expect(user1.mercuryLifeLeft(82.25)).toEqual('You are 32 over the average Mercurian life expectancy; Great work!');
   });
+
+  test('Should correctly log users Venus life expectancy', () => {
+    expect(user1.venusLifeLeft(82.25)).toEqual(38)
+  })
 })

@@ -38,5 +38,12 @@ export default class UserAge {
     }
   }
 
-  
+  venusLifeLeft(avgLifeExpectancy) {
+    let venusExpectancy = Math.round(avgLifeExpectancy / .62);
+    if (venusExpectancy > this.venusAge()) {
+      return venusExpectancy - this.venusAge();
+    } else if (venusExpectancy < this.venusAge()) {
+      return `You are ${this.venusAge() - venusExpectancy} over the average Mercurian life expectancy; Great work!`
+    }
+  }
 };
