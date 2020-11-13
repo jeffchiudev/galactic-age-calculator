@@ -8,6 +8,10 @@ export default class UserAge {
     return Math.round(this.earthAge / .24);
   }
 
+  venusAge() {
+    return Math.round(this.earthAge/ .62);
+  }
+
   marsAge() {
     return Math.round(this.earthAge/ 1.88);
   }
