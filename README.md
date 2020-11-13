@@ -47,11 +47,11 @@ _3. In the directory where you've cloned the repository, open in Visual Studio C
 | UserAge.prototype.mercuryAge |||
 | Should correctly calculate user age into Mercury years (age/.24) | userAge = 38 | user1.mercuryAge = 158 |
 | UserAge.prototype.venusAge |||
-| Should correctly calculate user age into Venus years (age/.62) | userAge = 38 | user1.mercuryAge = 61 |
+| Should correctly calculate user age into Venus years (age/.62) | userAge = 38 | user1.venusAge = 61 |
 | UserAge.prototype.marsAge |||
-| Should correctly calculate user age into Mars years (age/1.88) | userAge = 38 | user1.mercuryAge = 20 |
+| Should correctly calculate user age into Mars years (age/1.88) | userAge = 38 | user1.marsAge = 20 |
 | UserAge.prototype.jupiterAge |||
-| Should correctly calculate user age into Jupiter years (age/11.86) | userAge = 38 | user1.mercuryAge = 3 |
+| Should correctly calculate user age into Jupiter years (age/11.86) | userAge = 38 | user1.jupiterAge = 3 |
 | UserAge.prototype.lifeLeft |||
 | Should correctly log the users life expectancy according to user entering the avg life expectancy for their region on earth | userAge = 38; canadaExpectancy = 82.25 | userLifeExpectancy = 44.25 |
 | Should correctly calculate years OVER average exectancy if the user age is > than the average life exectancy of their region (on earth) | userAge = 90; canadaExpectancy = 82.25 | yearsOver = 7.75 |
@@ -60,7 +60,9 @@ _3. In the directory where you've cloned the repository, open in Visual Studio C
 | Should correctly calculate if user is older than life expectancy on Mercury | userAge.90; canadaExpectancy = 82.25 | yearsOver = 32 |
 | UserAge.prototype.venusLifeLeft |||
 | Should correctly log users Venus life expectancy | userAge.38; canadaExpectancy = 82.25 | VenusLifeLeft = 72 |
-| Should correctly calculate if user is older than life expectancy on Mercury | userAge.90; canadaExpectancy = 82.25 | yearsOver = 13 |
+| Should correctly calculate if user is older than life expectancy on Venus | userAge.90; canadaExpectancy = 82.25 | yearsOver = 13 |
+| userAge.prototype.marsLifeLeft |||
+| Should correctly log users Mars life expectancy | userAge.38; canadaExpectancy = 82.25 | marsLifeLeft = 24 |
 
 
 ## Known Bugs:
