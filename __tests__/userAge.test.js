@@ -54,4 +54,7 @@ describe('UserAge', () => {
     expect(user1.venusLifeLeft(82.25)).toEqual('You are 12 over the average Venusian life expectancy; Great work!');
   });
 
+  test('Should correctly log users Mars life expectancy', () => {
+    expect(user1.marsLifeLeft(82.25)).toEqual(38)
+  });
 })

@@ -46,4 +46,13 @@ export default class UserAge {
       return `You are ${this.venusAge() - venusExpectancy} over the average Venusian life expectancy; Great work!`
     }
   }
+
+  marsLifeLeft(avgLifeExpectancy) {
+    let marsExpectancy = Math.round(avgLifeExpectancy / 1.88);
+    if (marsExpectancy > this.marsAge()) {
+      return marsExpectancy - this.marsAge();
+    } else if (marsExpectancy < this.marsAge()) {
+      return `You are ${this.marsAge() - marsExpectancy} over the average Martian life expectancy; Great work!`
+    }
+  }
 };
