@@ -17,7 +17,7 @@ _`[Click here](https://jeffchiudev.github.io/galactic-age-calculator/)` to visit
 
 ### Software Requirements:
 
-_1. Internet browser of choice. Chrome & Firefox are suggested_
+_1. Internet browser of choice. Chrome is suggested_
 
 _2. A code editor like VSCode or Atom to view or edit the codebase._
 
@@ -86,8 +86,6 @@ _* Webpack_
 _* ES6_
 
 _* Jest_
-
-### License:
 
 _This extension is licensed under the MIT license._
 

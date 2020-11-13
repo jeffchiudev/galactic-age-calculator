@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
-  <title>TODO</title>
+  <title>Galactic Age Tracker</title>
 </head>
+
 <body>
-  <form id="TODO">
-    <label for="TODO">TODO:</label>
-    <input id="TODO" type="TODO">
-    <button type="submit">Submit</button>
-  </form>
-  <ul id="response"></ul>
-    <li></li>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Galactic Age Tracker!!</h1>
+      <p>Enter your name and Age and lets see how old you'd be on other planets!</p>
+    </div>
+    <div id="input">
+      <form id="user-info">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="name">Please enter your name:</label>
+              <input id="name" type="text" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="age">Please enter your age:</label>
+              <input id="age" type="number" required>
+            </div>
+          </div>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
 </body>
+
 </html>
