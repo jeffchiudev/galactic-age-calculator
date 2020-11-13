@@ -19,6 +19,9 @@ export default class UserAge {
   lifeLeft(avgLifeExpectancy) {
     if (avgLifeExpectancy > this.earthAge) {
       return avgLifeExpectancy - this.earthAge;  
+    } else if (this.earthAge > avgLifeExpectancy) {
+      let overAverage = this.earthAge - avgLifeExpectancy;
+      return `you are ${overAverage} years over the average life expectancy on Earth.  Keep taking care of yourself!!`;
     }
   }
 }

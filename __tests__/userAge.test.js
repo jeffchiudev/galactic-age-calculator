@@ -25,5 +25,10 @@ describe('UserAge', () => {
 
   test('Should correctly log the users life expectancy according to user entering the avg life expectancy for their region', () => {
     expect(user1.lifeLeft(82.25)).toEqual(44.25);
+  });
+
+  test('Should correctly calculate years OVER average exectancy if the user age is > than the average life exectancy of their region (on earth)', () => {
+    let user1 = new UserAge("Jeff", "90")
+    expect(user1.lifeLeft(82.25)).toEqual(38);
   })
 })
