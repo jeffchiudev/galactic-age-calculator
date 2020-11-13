@@ -4,7 +4,7 @@ export default class UserAge {
     this.earthAge = earthAge;
   }
 
-  mercuryAge(earthAge) {
-    mercuryAge = earthAge / .24;
+  mercuryAge() {
+    return this.earthAge / .24;
   }
 }
