@@ -40,6 +40,9 @@ _3. In the directory where you've cloned the repository, open in Visual Studio C
 
 ## Testing Specifications:
 
+<details><summary>Click Here</summary>
+<p>
+
 | Description | Input | Ouput |
 | :---------- | :---- | :---- |
 | UserAge ||||
@@ -68,9 +71,12 @@ _3. In the directory where you've cloned the repository, open in Visual Studio C
 | Should correctly log users Jupiter life expectancy | userAge.38; canadaExpectancy = 82.25 | jupiterLifeLeft = 4 |
 | Should correctly calculate if user is older than life expectancy on Jupiter | userAge.90; canadaExpectancy = 82.25 | yearsOver = 1 |
 
+</p>
+</details>
+
 ## Known Bugs:
 
-_Currently optimized for desktop browsing.  Smart device integration will be added soon._
+_Currently only has 4 planets of the solar system._
 
 ## Support and contact details:
 

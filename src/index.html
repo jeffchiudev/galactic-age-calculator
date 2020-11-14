@@ -14,21 +14,30 @@
     <div id="input">
       <form id="user-info">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="form-group">
               <label for="name">Please enter your name:</label>
               <input id="name" type="text" required>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="form-group">
               <label for="age">Please enter your age:</label>
               <input id="age" type="number" required>
             </div>
           </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="average-life-span">Please enter the average lifespan for your demographic:</label>
+              <input id="average-life-span" type="number" required>
+            </div>
+          </div>
         </div>
         <button type="submit">Submit</button>
       </form>
+    </div>
+    <div class="results">
+      <p>So <span class="user-name"></span> according to your age and </p>
     </div>
   </div>
 </body>
