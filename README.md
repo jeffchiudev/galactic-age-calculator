@@ -10,7 +10,7 @@ _Birthdays and our ages are calculated according to the solar calendar; Every 36
 
 ## Site link
 
-_`[Click here](https://jeffchiudev.github.io/galactic-age-calculator/)` to visit the site._
+_[Click here](https://jeffchiudev.github.io/galactic-age-calculator/) to visit the site._
 
 
 ## Setup/Installation Requirements:
@@ -23,7 +23,7 @@ _2. A code editor like VSCode or Atom to view or edit the codebase._
 
 #### Open by downloading:
 
-_1. Download `[this](https://github.com/jeffchiudev/galactic-age-calculator)` repository onto your computer by clicking the 'clone or download button'._
+_1. Download [this](https://github.com/jeffchiudev/galactic-age-calculator) repository onto your computer by clicking the 'clone or download button'._
 
 _2. This page utilizes Node package manager and requires local files to be installed. Once you've cloned the repository and it's accompanying config files, use the following command `npm install` to install the necessary NPM files to display correctly._
 
