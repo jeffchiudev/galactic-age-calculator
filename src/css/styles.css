@@ -2,6 +2,6 @@ body {
   background-color: TODO;
 }
 
-.results {
+#results {
   display: none;
 }

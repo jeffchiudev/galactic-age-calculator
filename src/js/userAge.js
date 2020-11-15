@@ -34,7 +34,7 @@ export default class UserAge {
     if (mercuryExpectancy > this.mercuryAge()) {
       return mercuryExpectancy - this.mercuryAge();
     } else if (mercuryExpectancy < this.mercuryAge()) {
-      return `You are ${this.mercuryAge() - mercuryExpectancy} over the average Mercurian life expectancy; Great work!`
+      return `You are ${this.mercuryAge() - mercuryExpectancy} over the average Mercurian life expectancy; Great work!`;
     }
   }
 
@@ -43,7 +43,7 @@ export default class UserAge {
     if (venusExpectancy > this.venusAge()) {
       return venusExpectancy - this.venusAge();
     } else if (venusExpectancy < this.venusAge()) {
-      return `You are ${this.venusAge() - venusExpectancy} over the average Venusian life expectancy; Great work!`
+      return `You are ${this.venusAge() - venusExpectancy} over the average Venusian life expectancy; Great work!`;
     }
   }
 
@@ -52,7 +52,7 @@ export default class UserAge {
     if (marsExpectancy > this.marsAge()) {
       return marsExpectancy - this.marsAge();
     } else if (marsExpectancy < this.marsAge()) {
-      return `You are ${this.marsAge() - marsExpectancy} over the average Martian life expectancy; Great work!`
+      return `You are ${this.marsAge() - marsExpectancy} over the average Martian life expectancy; Great work!`;
     }
   }
 
@@ -61,7 +61,7 @@ export default class UserAge {
     if (jupiterExpectancy > this.jupiterAge()) {
       return jupiterExpectancy - this.jupiterAge();
     } else if (jupiterExpectancy < this.jupiterAge()) {
-      return `You are ${this.jupiterAge() - jupiterExpectancy} over the average Jovian life expectancy; Great work!`
+      return `You are ${this.jupiterAge() - jupiterExpectancy} over the average Jovian life expectancy; Great work!`;
     }
   }
-};
+}

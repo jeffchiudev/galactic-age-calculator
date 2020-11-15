@@ -1,19 +1,21 @@
 import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/styles.css';
-import UserAge from './userAge'
+import '../css/styles.css';
+import UserAge from './userAge';
 
 $(document).ready(function() {
-  $('#user-info').submit(function(event) {
+  $('form#user-info').submit(function(event) {
     event.preventDefault();
-    userInfo = new UserAge();
+    let userInfo = new UserAge();
     userInfo.name = $('input#name').val();
     userInfo.earthAge = $('input#age').val();
-    userAvgLife = $('input#average-life-span').val()
-    mercuryYears = userInfo.mercuryAge();
-    mercuryTimeLeft = userInfo.mercuryLifeLeft();
-    $('.results').show()
-    $ 
+    let userAvgLife = $('input#average-life-span').val();
+    let mercuryYears = userInfo.mercuryAge();
+    let mercuryTimeLeft = userInfo.mercuryLifeLeft(userAvgLife);
+    $('#results').show();
+    $('.user-name').append(userInfo.name);
+    $('.mercury-years').append(mercuryYears);
+    $('.mercury-left').append(mercuryTimeLeft);
   });
 });
