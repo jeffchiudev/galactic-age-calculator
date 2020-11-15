@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Galactic Age Tracker</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Galactic Age Tracker!!</h1>
+      <p>Enter your name and Age and lets see how old you'd be on other planets!</p>
+    </div>
+    <div id="input">
+      <form id="user-info">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="name">Please enter your name:</label>
+              <input id="name" type="text" required>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="age">Please enter your age:</label><br>
+              <input id="age" type="number" required>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label for="average-life-span">Please enter the average lifespan for your demographic:</label>
+              <input id="average-life-span" type="number" required>
+            </div>
+          </div>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div id="results">
+      <p>So <span class="user-name"></span> according to your age and average lifespan you entered:</p>
+      <div class="row">
+        <div class="col-md-3">
+          <p>On Mercury:</p>
+            <p>years old: <span class="mercury-years"></span></p> 
+            <p>years left: <span class="mercury-left"></span></p> 
+          </div>
+          <div class="col-md-3">
+            <p>On Venus:</p>
+            <p>years old: <span class="venus-years"></span></p> 
+            <p>years left: <span class="venus-left"></span></p> 
+          </div>
+          <div class="col-md-3">
+            <p>On Mars:</p>
+            <p>years old: <span class="mars-years"></span></p> 
+            <p>years left: <span class="mars-left"></span></p> 
+          </div>
+          <div class="col-md-3">
+            <p>On Jupiter:</p>
+            <p>years old: <span class="jupiter-years"></span></p> 
+            <p>years left: <span class="jupiter-left"></span></p> 
+          </div>
+        </div>
+      </div>
+  </div>
+<script type="text/javascript" src="bundle.js"></script></body>
+
+</html>
