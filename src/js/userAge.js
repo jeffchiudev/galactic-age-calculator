@@ -71,6 +71,10 @@ export default class UserAge {
 
   saturnLifeLeft(avgLifeExpectancy) {
     let saturnExpectancy = Math.round(avgLifeExpectancy / 29.46);
-    return saturnExpectancy;
+    if (saturnExpectancy > this.saturnAge()) {
+      return saturnExpectancy - this.saturnAge();
+    } else {
+      return `You are ${this.saturnAge() - saturnExpectancy} over the average Saturnian life expectancy; Great work!`;
+    }
   }
 }
