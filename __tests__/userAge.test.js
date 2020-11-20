@@ -28,7 +28,7 @@ describe('UserAge', () => {
   });
 
   test('Should correctly calculate user age into Saturn years (age/29.46)', () => {
-    expect(user1.saturnAge()).toEqual(38);
+    expect(user1.saturnAge()).toEqual(1);
   })
 
   test('Should correctly log the users life expectancy according to user entering the avg life expectancy for their region', () => {
