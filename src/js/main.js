@@ -19,6 +19,8 @@ $(document).ready(function() {
     let marsTimeLeft = userInfo.marsLifeLeft(userAvgLife);
     let jupiterYears = userInfo.jupiterAge();
     let jupiterTimeLeft = userInfo.jupiterLifeLeft(userAvgLife);
+    let saturnYears = userInfo.saturnAge();
+    let saturnTimeLeft = userInfo.saturnLifeLeft(userAvgLife);
     $('#results').show();
     $('.user-name').html(userInfo.name);
     $('.mercury-years').html(mercuryYears);

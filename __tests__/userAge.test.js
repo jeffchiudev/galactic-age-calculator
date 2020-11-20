@@ -75,4 +75,7 @@ describe('UserAge', () => {
     let user1 = new UserAge("Jeff", 90)
     expect(user1.jupiterLifeLeft(82.25)).toEqual("You are 1 over the average Jovian life expectancy; Great work!");
   });
+
+  test('Should correctly log users Saturn life expectancy', () => {
+  }); 
 })
