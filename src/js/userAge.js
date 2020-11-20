@@ -68,4 +68,9 @@ export default class UserAge {
       return `You are ${this.jupiterAge() - jupiterExpectancy} over the average Jovian life expectancy; Great work!`;
     }
   }
+
+  saturnLifeLeft(avgLifeExpectancy) {
+    let saturnExpectancy = Math.round(avgLifeExpectancy / 29.46);
+    return saturnExpectancy;
+  }
 }

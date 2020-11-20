@@ -77,5 +77,6 @@ describe('UserAge', () => {
   });
 
   test('Should correctly log users Saturn life expectancy', () => {
+    expect(user1.saturnLifeLeft(82.25)).toEqual(38)
   }); 
 })
