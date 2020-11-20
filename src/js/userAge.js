@@ -23,7 +23,7 @@ export default class UserAge {
   lifeLeft(avgLifeExpectancy) {
     if (avgLifeExpectancy > this.earthAge) {
       return avgLifeExpectancy - this.earthAge;  
-    } else if (this.earthAge > avgLifeExpectancy) {
+    } else {
       let overAverage = this.earthAge - avgLifeExpectancy;
       return `you are ${overAverage} years over the average life expectancy on Earth.  Keep taking care of yourself!!`;
     }
@@ -33,7 +33,7 @@ export default class UserAge {
     let mercuryExpectancy = Math.round(avgLifeExpectancy / .24);
     if (mercuryExpectancy > this.mercuryAge()) {
       return mercuryExpectancy - this.mercuryAge();
-    } else if (mercuryExpectancy < this.mercuryAge()) {
+    } else {
       return `You are ${this.mercuryAge() - mercuryExpectancy} over the average Mercurian life expectancy; Great work!`;
     }
   }
@@ -42,7 +42,7 @@ export default class UserAge {
     let venusExpectancy = Math.round(avgLifeExpectancy / .62);
     if (venusExpectancy > this.venusAge()) {
       return venusExpectancy - this.venusAge();
-    } else if (venusExpectancy < this.venusAge()) {
+    } else {
       return `You are ${this.venusAge() - venusExpectancy} over the average Venusian life expectancy; Great work!`;
     }
   }
@@ -51,7 +51,7 @@ export default class UserAge {
     let marsExpectancy = Math.round(avgLifeExpectancy / 1.88);
     if (marsExpectancy > this.marsAge()) {
       return marsExpectancy - this.marsAge();
-    } else if (marsExpectancy < this.marsAge()) {
+    } else {
       return `You are ${this.marsAge() - marsExpectancy} over the average Martian life expectancy; Great work!`;
     }
   }
@@ -60,7 +60,7 @@ export default class UserAge {
     let jupiterExpectancy = Math.round(avgLifeExpectancy / 11.86);
     if (jupiterExpectancy > this.jupiterAge()) {
       return jupiterExpectancy - this.jupiterAge();
-    } else if (jupiterExpectancy < this.jupiterAge()) {
+    } else {
       return `You are ${this.jupiterAge() - jupiterExpectancy} over the average Jovian life expectancy; Great work!`;
     }
   }
