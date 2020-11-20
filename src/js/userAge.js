@@ -20,6 +20,10 @@ export default class UserAge {
     return Math.round(this.earthAge/ 11.86);
   }
 
+  saturnAge() {
+    return Math.round(this.earthAge/ 29.46)
+  }
+
   lifeLeft(avgLifeExpectancy) {
     if (avgLifeExpectancy > this.earthAge) {
       return avgLifeExpectancy - this.earthAge;  
