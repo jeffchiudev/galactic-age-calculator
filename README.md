@@ -74,6 +74,7 @@ _3. In the directory where you've cloned the repository, open in Visual Studio C
 | Should correctly calculate if user is older than life expectancy on Jupiter | userAge.90; canadaExpectancy = 82.25 | yearsOver = 1 |
 | userAge.prototype.saturnLifeLeft |||
 | Should correctly log users saturn life expectancy | userAge.38; canadaExpectancy = 82.25 | saturnLifeLeft = 3 |
+| Should correctly calculate if user is older than life expectancy on Saturn | userAge.120; canadaExpectancy = 82.25 | yearsOver = 1 |
 
 </p>
 </details>
