@@ -7,9 +7,9 @@ import UserAge from './userAge';
 $(document).ready(function() {
   $('form#user-info').submit(function(event) {
     event.preventDefault();
-    let userInfo = new UserAge();
-    userInfo.name = $('input#name').val();
-    userInfo.earthAge = $('input#age').val();
+    let userName = $('input#name').val();
+    let userAge = $('input#age').val();
+    let userInfo = new UserAge(userName, userAge);
     let userAvgLife = $('input#average-life-span').val();
     let mercuryYears = userInfo.mercuryAge();
     let mercuryTimeLeft = userInfo.mercuryLifeLeft(userAvgLife);
@@ -20,14 +20,14 @@ $(document).ready(function() {
     let jupiterYears = userInfo.jupiterAge();
     let jupiterTimeLeft = userInfo.jupiterLifeLeft(userAvgLife);
     $('#results').show();
-    $('.user-name').append(userInfo.name);
-    $('.mercury-years').append(mercuryYears);
-    $('.mercury-left').append(mercuryTimeLeft);
-    $('.venus-years').append(venusYears);
-    $('.venus-left').append(venusTimeLeft);
-    $('.mars-years').append(marsYears);
-    $('.mars-left').append(marsTimeLeft);
-    $('.jupiter-years').append(jupiterYears);
-    $('.jupiter-left').append(jupiterTimeLeft);
+    $('.user-name').html(userInfo.name);
+    $('.mercury-years').html(mercuryYears);
+    $('.mercury-left').html(mercuryTimeLeft);
+    $('.venus-years').html(venusYears);
+    $('.venus-left').html(venusTimeLeft);
+    $('.mars-years').html(marsYears);
+    $('.mars-left').html(marsTimeLeft);
+    $('.jupiter-years').html(jupiterYears);
+    $('.jupiter-left').html(jupiterTimeLeft);
   });
 });
